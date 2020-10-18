@@ -1,0 +1,10 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+h1,h2,h3{
+  font-family: 'Alata', sans-serif;
+}
+#title{
+  background-color: teal;
+  padding: 20px 10px 20px;
+}

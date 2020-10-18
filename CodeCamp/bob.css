@@ -1,0 +1,45 @@
+main{
+    background-color: white;
+    font-family: "monospace";
+}
+h1, h2, h3{
+  font-family: "Alata", sans-serif;
+}
+#title{
+  background: linear-gradient(1deg, white, gray);
+  text-align: center;
+  width: 100%;
+  height: 100px;
+}
+#image{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  max-width: 700px;
+}
+#img-caption{
+  text-align: center;
+  text-color: black;
+}
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 20px 0;
+}
+#tribute-info{
+  font-family: "monospace";
+  font-size: 20px;
+}
+#tribute-link{
+  font-size: 22px;
+  font-family: "times new roman";
+
+}

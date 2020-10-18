@@ -1,0 +1,98 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<script src="formscripts.js"></script>
+
+<main id = "main">
+  <html lang = "en" dir = "ltr">
+    <head>
+      <meta charset = "utf-8">
+      <title> Survey </title>
+      <link rel="stylesheet" href="formm.css">
+    </head>
+
+    <body id = "bigbod">
+      <div>
+        <h1 id = "title"> THE Survey</h1>
+        <p id = "description"> This survey tests your knowledge on a certain godly builder. You have to know all the ancient texts about the certain "Bob" legend. </p>
+      </div>
+      <div>
+        <form name="myForm" onsubmit="return validateForm()" >
+          <fieldset>
+            <legend>Survey About You</legend>
+            <p>
+            <label>Name</label>
+            <input
+                   type = "name"
+                   value = ""
+                   id = "name"
+                   name = "zename"
+             >
+                   </p>
+              <p>
+            <label>Email</label>
+            <input
+                   type = "email"
+                   value = "Insert Email"
+                   id = "email"
+            >
+            </p>
+            <p>
+            <label>Number</label>
+              <input
+                   type = "id"
+                   value = "Insert Number"
+                   id = "number"
+                   name = "number"
+              >
+            <br>
+            <br>
+
+            </p>
+
+            <p>
+              <label>Do you eat Donuts?</label>
+              <input
+                     type = "checkbox"
+                     value = "donut"
+              >
+            </p>
+            <p>
+              <label>Do you eat Pie?</label>
+              <input
+                     type = "checkbox"
+                     value = "pie"
+              >
+            </p>
+            <p>
+              <label>Do you eat Cake?</label>
+              <input
+                     type = "checkbox"
+                     value = "cake"
+              >
+            </p>
+            <p>
+              <label>Do you eat Fries?</label>
+              <input
+                     type = "checkbox"
+                     value = "fries"
+              >
+            </p>
+
+            <p>
+              <label for = "comments">Any Extra Comments?</label>
+              <textarea id = "comments" name = "comments" rows = "1" cols = "100"></textarea>
+            </p>
+            <input type="submit" value="Submit">
+          </fieldset>
+        </form>
+      </div>
+    </body>
+<!--
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding!
+
+- The freeCodeCamp Team
+
+-->
+    </main>

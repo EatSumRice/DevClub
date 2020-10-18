@@ -1,0 +1,21 @@
+#title{
+  text-align: center;
+  font-family: "monospace";
+  background-color: white;
+  width: 50%;
+  transform: translateX(50%);
+
+}
+#bigbod{
+  background-color: white;
+}
+#description{
+  text-align: center;
+  font-family: "times new roman";
+  background-color: white;
+  width: 50%;
+  transform: translateX(50%);
+}
+#email{
+
+}

@@ -1,0 +1,68 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+h1,h2,h3{
+  font-family: 'Alata', sans-serif;
+}
+#title{
+  background-color: #3bc7ff;
+  padding: 2% 10% 4%;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  padding: auto;
+  text-align: center;
+
+}
+.header{
+  text-align: center;
+  font-size: 75px;
+  margin: 7%;
+}
+
+#favorites{
+  background-color: #95ddfc;
+  padding: 6% 10% 0;
+}
+.fav-box{
+  text-align: center;
+  padding-bottom: 6%;
+}
+.fav-icon{
+  color: #1b4e63;
+  padding-bottom: 20px;
+}
+.fav-icon:hover{
+  color: #2b8db5;
+}
+#places{
+  background-color: #ffffde;
+  padding: 6% 10%;
+}
+.places-img{
+  width: 100%;
+}
+.places-text{
+  padding-top: 6%;
+  padding-left: 50px;
+}
+
+#specialties{
+  background-color: white;
+  padding: 6% 10%;
+}
+
+.card-header{
+  background-color: #95ddfc;
+}
+
+#footer{
+  background-color: #3bc7ff;
+  padding: 6% 10%;
+  text-align: center;
+}
+.foot-icon{
+  padding: 0 20px 40px;
+
+}

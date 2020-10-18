@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!-- tabindex is which element has keyboard focus first and so on -->
+<html lang = "en" dir = "ltr">
+  <head>
+    <meta charset = "utf-8">
+    <title> First Example </title>
+    <link rel="stylesheet" href="indexstyling.css">
+  </head>
+
+
+
+  <body>
+   <div id = "title">
+     <h1 class = "centeredtext"> This is the Testing Page</h1>
+   </div>
+
+    <img src = "https://www.blessthismessplease.com/wp-content/uploads/2013/05/Pioneer-Womans-yeast-glazed-donuts2.jpg"
+     alt = "glazed donut" width = "250px" height = "200px" class = "centeredimage">
+
+    <div>
+     <p class = "centeredtext"> Welcome to the first example, it's pretty epic </p>
+     <p class = "clickable centeredtext"> Remember that HTML is used for structure,
+      and backend is used for functionality </p>
+
+      <p class = "centeredtext"> this paragraph is used to add more space to the entire document
+        so that the top thing works and guess what, im gonna spam random
+        letters now just to fill up more space. :SLDKFJLKDSFJLSDK:FJSDKLJF
+        SD:FLKJD:LFKJSD:LKFJSD:KLFJSD:LKFJS:DLKFJ:SLDKFJL:SDKFJS:LDKFJ:LSD
+        DLSFJ:LKDFSJ:SLKDFJ:LKSDJF:LKSDJF:KLDSJF:LKSDJF:LKSDJF:DSLKFJD:SLKDF
+        LDK:SFJ:LDSKJF:LKSDJF:LSKDJFL:KDSJF:SLKDFJ:LSDKJFLS:DKFJSLDKFJSDFJ:KL
+        SD:FJLKSDFJ:LKDSJFL:KSDJFL:SDKJFL:SKJFS:DLKJFLSDKFJL:SKDJFLKSDJF:LDSKFJ
+        D:FLKJ:SDLFJL:SDKFJSL:DKFJSLD:KFJSLDKFJSDLKFJDLKFSDSFKL:JSDF:KLJSDLFKJ
+        SD:LKFJ:DLSKJS:DLKFJD:LSFKJSD:FKJS:DLKFJS:LDKFJSD:LKFJSLD:FKJSLDFKJSLDFJK
+        DSLFK:JSD:LKFJLKSDFJ:LKSDFJL:SDKFJSLDKFJLSDKFJ:LSDKJFL:SDJF:LKSDFJ</p>
+
+    <div>
+      <h3>Links to Different Parts of Page</h3>
+      <ol>
+        <li><a href = "#explainflex">Go To Flex</a>
+
+
+      </ol>
+
+     <ul class = "centeredlist">
+      <li class = "centeredlistindividual"> this is an unordered list</li>
+      <li> an ordered list is ol </li>
+      <li> a descriptive list is dl (plus dt) </li>
+     </ul>
+   </div>
+
+   </div>
+   <h2> <b>Below is a Table and a Form</b> </h2>
+    <div>
+     <table border = "1">
+      <tr>
+          <th> Header 1 </th>
+          <th> Header 2 </th>
+      </tr>
+      <tr>
+          <th> Data 1 </th>
+          <th> Data 2 </th>
+      </tr>
+    </table>
+
+     <form>
+      <input type = "checkbox" value = "pie" placeholder = "yes">
+        I Eat donuts</input>
+        <br>
+        <textarea rows = "1" cols = "10"> </textarea>
+        <br>
+        <input type = "button" name = "Click Me!">
+     </form>
+   </div>
+
+
+       <hr>
+      <div>
+        <ul>
+          <li>vw is viewport width. 10vw takes 10% of viewport's width</li>
+          <li>vh is viewport height. same thing as vw</li>
+          <li>vmin is viewport minimum. 70vwmin would be 70% of viewport's smaller dimension</li>
+          <li>vmax is viewport maximum. Same thing as vmin but max</li>
+        </ul>
+
+      </div>
+
+      <img src="https://media.istockphoto.com/photos/assorted-glazed-donut-picture-id905879330?k=6&m=905879330&s=612x612&w=0&h=HxlNGEP_r3gzGbNWRy7GRiu1lPA2b2JzjqFyKVp8470=" class = "picture" width = "200vw" height = "150vw" alt="picture of donuts" >
+
+      <div class = "caption">
+        <h3>
+          Picture of wonderful donuts
+        </h3>
+        <h4>
+          Donuts come in many sizes, such as pink, white, black, yellow, etc.
+        </h4>
+
+      </div>
+
+      <div id = "explainflex">
+        <h2> This paragraph is talking about the content of justify and flex for CSS </h2>
+        <p>
+          <ul>
+<li><b>flex-start:</b> aligns items to the start of the flex container. For a row, this pushes the items to the left of the container. For a column, this pushes the items to the top of the container. This is the default alignment if no justify-content is specified.</li>
+<li><b>flex-end:</b> aligns items to the end of the flex container. For a row, this pushes the items to the right of the container. For a column, this pushes the items to the bottom of the container.</li>
+<li><b>space-between</b>: aligns items to the center of the main axis, with extra space placed between the items. The first and last items are pushed to the very edge of the flex container. For example, in a row the first item is against the left side of the container, the last item is against the right side of the container, then the remaining space is distributed evenly among the other items.</li>
+<li><b>space-around</b>: similar to space-between but the first and last items are not locked to the edges of the container, the space is distributed around all the items with a half space on either end of the flex container.</li>
+<li><b>space-evenly</b>: Distributes space evenly between the flex items with a full space at either end of the flex container</li>
+</p>
+</ul>
+<h3><b>Below is usage of flex (sets flex shrink, flex grow, and flex basis at once)<b></h3>
+  <h4> Another flex element is wrap, but that's when there isn't enough space for all boxes<h4>
+
+  <div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+  <div id = "box-3"></div>
+  </div>
+
+  <br>
+
+  <div class="container">
+  <div class="d1"><h5>Favorite Food: Krabby Patty</h5></div>
+  <div class="d2"><h5>Favorite Sport: Socker</h5></div>
+  <div class="d3"><h5>Favorite Drink: Vitamin Watar</h5></div>
+  <div class="d4"><h5>Favorite Fruit: Apple</h5></div>
+  <div class="d5"><h5>Favorite Restaurant: House</h5></div>
+  <div class="d6"><h5>Favorite Thing: Computer</h5></div>
+</div>
+
+<br>
+
+  <div class = "containertwo">
+    <div class="item1">1</div>
+  <div class="item2">2</div>
+  <div class="item3">3</div>
+  <div class="item4">4</div>
+  <div class="item5">5</div>
+
+  </div>
+
+</div>
+
+
+    <footer>
+    <hr>
+    <a href = "www.google.com" > Google! </a>
+    <br>
+    <a href = "Contact Me.html"> Contact Me! </a>
+    <br>
+    <a href = "Suraj Vaddi Page.html" accesskey = "b"> Go To SuraJ Vaddi's Page! </a>
+    <br>
+    <a href = "hobbies.html"> Go to Hobbies </a>
+    <br>
+      <a href = "#top"> Go To Top</a>
+    </br>
+    <a href = "bobthebuilder.html">Go to Bob the Builder's Legendary Site</a>
+  </footer>
+
+
+
+</html>

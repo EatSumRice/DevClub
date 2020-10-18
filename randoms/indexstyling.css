@@ -1,0 +1,132 @@
+h1,h2,h3{
+  font-family: 'Alata', sans-serif;
+}
+h5{
+  text-align: center;
+  transform: translateY(-50%);
+}
+#title{
+  background: linear-gradient(90deg, dodgerblue, teal);
+  padding: 20px 10px 20px;
+}
+.centeredtext{
+  text-align: center;
+}
+.centeredimage{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 50%;
+  border-width: 10px;
+  border-left-color: green;
+  border-right-color: blue;
+  border-top-color: purple;
+  border-bottom-color: cyan;
+  border-style:solid;
+
+}
+body{
+  background: linear-gradient(60deg, green, cyan, purple);
+  font-family = "monatomic";
+  font-size: 15px;
+
+
+}
+/* Example of a media (corrects stuff to fit with the size of device) */
+@media(max-height: 800px){
+  p{
+    font-size: 15px;
+  }
+}
+.caption{
+  text-decoration: none;
+  text-color: brown;
+}
+.picture{
+  display: flex;
+  flex-direction: row;
+}
+.centeredlist{
+  max-width: 550px;
+  margin: auto auto auto auto;
+  text-align: left;
+  line-height: 1.6;
+}
+.centeredlistindividual{
+  margin: 20px 0;
+}
+#box-container {
+    display: flex;
+    height: 500px;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 100%;
+    height: 200px;
+    flex: 2 2 150px;
+    order: 2; /* tells what order boxes are in */
+    align-self: center; /* tells where the box is located */
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 100%;
+    height: 200px;
+    flex: 1 1 150px;
+    order: 1;
+    align-self: flex-end;
+  }
+  #box-3{
+    background: linear-gradient(60deg, red, yellow);
+    width: 100%;
+    height: 200px;
+    flex: 3 3 150px;
+    order: 3;
+    align-self: flex=start;
+  }
+  #explainflex{
+
+  }
+/* Use flex and flex direction to change the position of elements. Use justify-content to
+edit the settings of the flex */
+.d1{background:LightSkyBlue;}
+  .d2{background:LightSalmon;}
+  .d3{background:PaleTurquoise;}
+  .d4{background:LightPink;}
+  .d5{background:PaleGreen;}
+  .d6{background:linear-gradient(50deg, white, black)}
+  .container {
+    font-size: 20px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 250px 300px 250px;
+    grid-template-rows: 50px 50px;
+    grid-gap: 0px 20px; /* sets gap of row then column */
+    /* justify-items: center; = forces items and color to be center of each grid part */
+}
+
+/* example of using grid template areas for each part */
+.item1{background:LightSkyBlue;}
+  .item2{background:LightSalmon;}
+  .item3{background:PaleTurquoise;}
+  .item4{background:LightPink;}
+  .item5 {
+    background: PaleGreen;
+    grid-area: header;
+  }
+  .containertwo{
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-template-areas:
+      "header header header"
+      "advert content content"
+      "footer footer footer";
+      /* can also make template like this: repeat(3, minmax(90px, 1fr)) */
+  }

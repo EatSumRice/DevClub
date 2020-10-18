@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+*{
+  border: 0;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+header{
+    color: black;
+    margin: 12px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: thin;
+    font-family: "monospace";
+}
+#title{
+  background-color: black;
+  height: 100px;
+  position: relative;
+  margin-left: 305px;
+  margin-top: 0px;
+  border: 0;
+  outline: none;
+  display: block;
+  padding: 0;
+  overflow: hidden;
+}
+#title h1{
+  color: yellow;
+  width: inherit;
+  text-align: center;
+  display:block;
+}
+#navbar{
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  border-right: solid;
+  border-top: solid;
+  border-width: 3px;
+  border-color: gray;
+}
+#navbar ul{
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#navbar li{
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+#navbar a{
+  display: block;
+  padding: 20px 30px;
+  font-family: "Montserrat";
+  color: #46cc99;
+  text-decoration: none;
+  font-size: 20px;
+}
+#main-doc{
+  position: relative;
+  margin-bottom: 100px;
+  margin-left: 310px;
+  margin-top: 0px;
+  padding: 10px;
+}
+.centeredimg{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.centeredimgcontain{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  overflow: hidden;
+  position: relative;
+  gap: 0px;
+}

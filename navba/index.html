@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<script src="formscripts.js"></script>
+<html lang = "en" dir = "ltr">
+  <head>
+    <meta charset = "utf-8">
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width=device-length, initial-scale = 1">
+    <title> First Example </title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+  <header class = "sticky">
+    <h1 class = "title">Swords</h1>
+    <img width = "70vw" height = "70vh" class = "logo" src = "https://i.pinimg.com/originals/b3/30/32/b33032e91bd74f9e0be8d38abfd8d7a4.png">
+    <nav>
+      <ul class = "nav-link">
+        <li><a href = "#services">Services</a>
+        <li><a href = "#projects">Projects</a>
+        <li><a href = "#signup">Sign Up</a>
+      </ul>
+    </nav>
+    <a class = "nav-link" href = "#contacting"><button>Contact</button></a>
+  </header>
+<div class = "content">
+  <div id = "services">
+    <h2 id = "header">Services</h2>
+    <br>
+      <img class = "firstsword" src = "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c62d91ad-f31a-42ca-aa3f-1b7fdc1f1e63/d5cf4hs-ccd53ddb-68b9-4e84-8171-e9fd0033adbf.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYzYyZDkxYWQtZjMxYS00MmNhLWFhM2YtMWI3ZmRjMWYxZTYzXC9kNWNmNGhzLWNjZDUzZGRiLTY4YjktNGU4NC04MTcxLWU5ZmQwMDMzYWRiZi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.WoDrJdSGucDv733i5KAKYIOXX0nPdDS4RuQtUSceT04">
+      <p class = "generaltext">Here we show you the amazing different types of Swords
+        that we think are cool. This purple one above is
+        one cool one that we found on the internet.
+      </p>
+    <br>
+      <div class = "flex-container">
+
+        <div class = "greenbox"><h1 class = "greenbox">Green</h1></div>
+        <div class = "cyanbox"><h1 class = "cyanbox">Cyan</h1></div>
+        <div class = "blackbox"><h1 class = "blackbox">Black</h1></div>
+        <div class = "purplebox"><h1 class = "purplebox">Purple</h1></div>
+
+      </div>
+
+      <div class = "flex-container describecolor">
+
+        <div class = "describecolor">This color is a great color for a Swords
+        as it represents the plains and calm swaying trees.</div>
+        <div class = "describecolor">This color is a very popular color and can represent
+        a light colored ocean or a laser blast</div>
+        <div class = "describecolor">This color is a dark color that many people
+        seem to enjoy mostly due to its edgyness</div>
+        <div class = "describecolor">This color is very similar to dark blue,
+        but it provides a slight evil color that some people like</div>
+
+      </div>
+    </div>
+
+  <div id = "projects">
+    <h1 id = "header">Projects</h1>
+    <br>
+    <iframe class = "video-container" src="http://www.youtube.com/embed/4aQwT3n2c1Q" height="315" width="560" allowfullscreen="" frameborder="0"></iframe>
+  </div>
+
+  <div id = "signup">
+    <h2 id = "header">Sign Up</h2>
+    <br>
+    <form id = "signupf" name="myForm" onsubmit="return validateForm()">
+      <fieldset class = "signupForm">
+        <legend>Information About You</legend>
+        <p>
+          <label>Email: </label>
+          <input
+            type = "email"
+            id = "email"
+            value = "Insert Email"
+            >
+        </p>
+
+        <input class = "submitbutton" value="Submit" type = "submit">
+      </fieldset>
+    </form>
+  </div>
+  <div id = "contacting">
+    <h1 id = "header">About Me</h1>
+    <h2 class = "generaltext">Name: Alex Yung</h2>
+    <h3 class = "generaltext">Currently attending Thomas Jefferson for High School and Technology</h3>
+    <h3 class = "generaltext">Email: realironfist123@gmail.com</h3>
+  </div>
+</div>
+</body>
