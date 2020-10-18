@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #d9d7d6;
+}
+
+li, a, button{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf-f1;
+  text-decoration: none;
+}
+.title{
+  font-family: "monospace";
+  background: transparent;
+  color: #5bb8ff;
+  cursor: pointer;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: #4f4d48;
+}
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content{
+  padding-top: 60px;
+}
+.logo{
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+}
+.nav-link{
+  list-style: none;
+  background: #4f4d48;
+}
+.nav-link li{
+  display:inline-block;
+  padding: 0px 20px;
+  color: #2ab802;
+  background: transparent;
+}
+.nav-link a{
+  transition: all 0.3s ease 0s;
+  background: transparent;
+}
+
+.nav-link li a:visited{
+color: #2ab802;
+}
+.nav-link li a:hover{
+  color: #1856ba;
+}
+
+html {
+  scroll-padding-top: 70px; /* height of sticky header */
+}
+button{
+  padding:10px 25px;
+  background-color: rgba(0, 135, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all .5s ease 0s;
+}
+
+button:hover{
+  background-color:rgba(0, 135, 169, 0.8);
+}
+
+#services{
+  background: #ff877a;
+  width: 100%;
+  height: 1000px;
+  padding: 60px;
+}
+.flex-container{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: #a8dbff;
+  width: 100%;
+  align-items: stretch;
+}
+.greenbox{
+  background-color: green;
+  text-align: center;
+  width: 100%;
+}
+.cyanbox{
+  background: cyan !important;
+  text-align: center;
+  width: 100%
+}
+.blackbox{
+  background: black;
+  text-align: center;
+  color: white;
+  width: 100%
+}
+.purplebox{
+  background: purple;
+  text-align: center;
+  width: 100%;
+}
+.describecolor{
+  background: #a8ffa8;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+#projects{
+  background: #ffa365;
+  width: 100%;
+  height: 1000px;
+  padding: 60px;
+}
+#signup{
+  background: #fff080;
+  width: 100%;
+  height: 1000px;
+  padding: 60px;
+}
+#header{
+  text-align: center;
+  background: transparent;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+#contacting{
+  background: #afcaff;
+  font-family: "Montserrat";
+  padding: 20px;
+  width: 100%;
+}
+.generaltext{
+  background: transparent;
+  font-family: "Montserrat";
+  padding: 5px;
+}
+.signupForm{
+  margin: 8px;
+  padding: 20px;
+}
+#signupf{git
+  padding: 20px;
+  margin: 50px;
+}
+.submitbutton{
+  padding: 5px;
+  margin-top: 10px;
+}
+.submitbutton:hover{
+  background: #1856ba;
+}
+.firstsword{
+  display: block;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  width: 400px;
+  height: 240px;
+  background: transparent;
+}
+.video-container {
+    overflow: hidden;
+    display:block;
+    margin: 0 auto;
+}
+.video-container iframe{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
